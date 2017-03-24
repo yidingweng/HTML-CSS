@@ -1,8 +1,7 @@
 body {
 	background-color: #EB984E;
 	font-family: sans-serif;
-	margin-left: 50px;
-	margin-right: 50px ;
+	
 }
 
 @font-face {
@@ -49,6 +48,8 @@ a:active{
 }
 
 #menu1{
+	margin-left: 50px;
+	margin-right: 50px ;
 	background-color: #EB984E;
 	font-family: Times;
 }
@@ -60,6 +61,8 @@ a:active{
 }
 
 #menu2{
+	margin-left: 50px;
+	margin-right: 50px ;
 	background-color: #EB984E;
 	font-family: Times;
 }
