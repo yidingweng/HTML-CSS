@@ -1,9 +1,34 @@
 body {
-		background-color: #ffffff;
+		background-color: #EB984E;
 		font-family: sans-serif;
 		}
+
+@font-face {
+    font-family: alexbrush-regular;
+    src: url(alexbrush-regular.woff) format('woff'),
+	url(alexbrush-regular.ttf) format('ttf');
+	font-weight: bold;
+}
+
 #header{
 	background-color: #faf2e4;
+	font-family: Times;
+}
+
+#picture{
+	background-color: #EB984E;
+	font-family: Times;
+	font-weight: bold;
+}
+
+#about{
+	background-color: #EB984E;
+	font-family: Times;
+	font-weight: bold;
+}
+
+#menu{
+	background-color: #EB984E;
 	font-family: Times;
 }
 
