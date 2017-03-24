@@ -4,6 +4,25 @@
 	url(alexbrush-regular.ttf) format('ttf');
 	font-weight: bold;
 }
+a {
+  font-family: monospace;
+  text-decoration: none;
+  color: Green;
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+  text-decoration: underline;
+  color: Red;
+}
+
+a:active {
+}
 
 body {
 	background-color: #faf2e4;
@@ -24,4 +43,10 @@ body {
 }
 #MandP{
 	font-family: alexbrush-regular;
+}
+table{
+	background-color: #EB984E;
+}
+tbody{
+	font-style: italic;
 }
