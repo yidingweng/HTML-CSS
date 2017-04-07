@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<title>Contact Us</title>
 		<link rel="stylesheet" href="restaurantStyles.css">
 		<style>
@@ -9,41 +10,70 @@
 			}
 		  
 		</style>
+		<link rel="stylesheet" type="text/css" herf="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="albumStyles.css">
+		<script type="text/javascript" src="js/bootstrap.js">
+		</script>
 	</head>
 
 	<body>
-		<div id="header">
-			<center><h2 STYLE= "font-family: alexbrush-regular;">Alpha Kitchen</h2></center><br>
-			<hr>
-			<p><a href = "RestaurantSite1.html">Home</a>
-				<a href = "RestaurantSite2.html">Menu</a>
-				<a href = "RestaurantSite3.html">Contact Us</a>
-			</p>
-			<hr>
-		</div>
+		<div class="container">
+			
+			<div id="header">
+				<center><h2 STYLE= "font-family: alexbrush-regular;">Alpha Kitchen</h2></center><br>
+				<ul class = "nav nav-tabs">
+					<div class = "menu">
+						<div class = "col-sm-4"><li><a href = "RestaurantSite1.html" data-toggle="tab">Home</a></li></div>
+						<div class = "col-sm-4"><li><a href = "RestaurantSite2.html" data-toggle="tab">Menu</a></li></div>
+						<div class = "col-sm-4"><li><a href = "RestaurantSite3.html" data-toggle="tab">Contact Us</a></li></div>
+					</div>
+				</ul>
+			</div>
 
-	
-		<div id = "picture" >
-			<center>
-				<img src = "alpha_pic.jpg" alt = "Alpha Kitchen image" width="400" height = "150">
-			</center>
-	    </div>
-		
-		<div id = "about" style="padding-right:430px; padding-left:430px;">
-			<p>
-			Alpha is a sushi restaurant in Westmount, Montreal that pairs the purity of traditional Japanese cuisine with Korean and South American flavours. Alpha is one of the only restaurants in Canada influenced by the time-honored tastes, craftsmanship, and knife skills of kaiseki cuisine. A respect for pure, sustainable, and ultrafresh ingredients is the foundation for all our dishes. Aesthetic presentation matters as much to us as deliciousness itself. New tastes, classic methods, conscious eating: Alpha is chef Antonio Alpha.
+			<div class = "col-sm-12">
+				<div class = "jumbotron">
+					<center><h2>Alpha Kitchen is opening a new location!</h2>
+					<a class = "btn btn-info">OK!</a>
+					</center>
+				</div>
+			</div>
 
-			</p>
-		</div>
+			<div class = "col-sm-12">
+				<div id = "picture" >
+					<center>
+						<img src = "alpha_pic.jpg" alt = "Alpha Kitchen image" width="400" height = "250">
+					</center>
+			    </div>
+			</div>
+			
+			<div class = "intro">
+				<div class = "col-sm-3"></div>
+				
+				<div class = "col-sm-6">
+					<div id = "about" >
+						<p>
+						Alpha is a sushi restaurant in Westmount, Montreal that pairs the purity of traditional Japanese cuisine with Korean and South American flavours. Alpha is one of the only restaurants in Canada influenced by the time-honored tastes, craftsmanship, and knife skills of kaiseki cuisine. A respect for pure, sustainable, and ultrafresh ingredients is the foundation for all our dishes. Aesthetic presentation matters as much to us as deliciousness itself. New tastes, classic methods, conscious eating: Alpha is chef Antonio Alpha.
 
-		<div id="footer">
-			<hr>
-			<p>
-				<center>
-					2199 Marshall Ave, St Paul, MN 55104<br>
-					(651) 793-7245
-				</center>
-			</p>	
+						</p>
+					</div>
+				</div>
+
+				<div class = "col-sm-3"></div>
+			</div>
+
+			<div class = "col-sm-12">
+				<div id="footer">
+					<hr>
+					<p>
+						<center>
+							2199 Marshall Ave, St Paul, MN 55104<br>
+							(651) 793-7245
+						</center>
+					</p>	
+				</div>
+			</div>
 		</div>
 
 

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<title>Contact Us</title>
 		<link rel="stylesheet" href="restaurantStyles.css">
 		<style>
@@ -10,72 +11,80 @@
 			}
 		  
 		</style>
+		<link rel="stylesheet" type="text/css" herf="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="albumStyles.css">
+		<script type="text/javascript" src="js/bootstrap.js">
+		</script>
 	</head>
 
 	<body>
-		<div id="header">
-			<center><h2 STYLE= "font-family: alexbrush-regular;">Alpha Kitchen</h2></center><br>
-			<hr>
-			<p><a href = "RestaurantSite1.html">Home</a>
-				<a href = "RestaurantSite2.html">Menu</a>
-				<a href = "RestaurantSite3.html">Contact Us</a>
-			</p>
-			<hr>
-		</div>
+		<div class="container">
+			<div id="header">
+				<center><h2 STYLE= "font-family: alexbrush-regular;">Alpha Kitchen</h2></center><br>
+				<ul class = "nav nav-tabs">
+					<div class = "menu">
+						<div class = "col-sm-4"><li><a href = "RestaurantSite1.html" data-toggle="tab">Home</a></li></div>
+						<div class = "col-sm-4"><li><a href = "RestaurantSite2.html" data-toggle="tab">Menu</a></li></div>
+						<div class = "col-sm-4"><li><a href = "RestaurantSite3.html" data-toggle="tab">Contact Us</a></li></div>
+					</div>
+				</ul>
+			</div>
 
-		<form>
-			<p>
-				<center>
-				Name: <input type ="text"/><br>
-				<p></p>
-				Email: <input type ="text"/><br>
-				<p></p>
-
-				Phone: <input type ="text"/><br>
-				<p></p>
-
-				Reason for Inquiry:
-				<select name = "reason">
-					<option value = "Catering">Catering</option>
-					<option value = "Private Party">Private Party</option>
-					<option value = "Feedback">Feedback</option>
-					<option value = "Other">Other</option>
-				</select><br>
-				<p></p>
-
-				Additional Information:
-
-				<textarea rows = "10" cols = "40" ></textarea><br/>
-				<p></p>
-
-				Have you been to the restaurant: 
-				<input type ="radio" value = "No"/>No
-				<input type ="radio" value = "Yes"/>Yes<br>
-				<p></p>
-				
-				Best days to contact you:
-				<input type="checkbox"/>M
-				<input type="checkbox"/>T
-				<input type="checkbox"/>W
-				<input type="checkbox"/>Th
-				<input type="checkbox"/>F
-				<p></p>
-				<input type= "submit" value="Send Request" ><br>
-				</center>
-
-			</p>
-			
-			<div id="footer">
-				<hr>
+			<form>
 				<p>
 					<center>
-						2199 Marshall Ave, St Paul, MN 55104<br>
-						(651) 793-7245
-					</center>
-				</p>	
-			</div>	
-		</form>
+					Name: <input type ="text"/><br>
+					<p></p>
+					Email: <input type ="text"/><br>
+					<p></p>
 
+					Phone: <input type ="text"/><br>
+					<p></p>
+
+					Reason for Inquiry:
+					<select name = "reason">
+						<option value = "Catering">Catering</option>
+						<option value = "Private Party">Private Party</option>
+						<option value = "Feedback">Feedback</option>
+						<option value = "Other">Other</option>
+					</select><br>
+					<p></p>
+
+					Additional Information:
+
+					<textarea rows = "10" cols = "40" ></textarea><br/>
+					<p></p>
+
+					Have you been to the restaurant: 
+					<input type ="radio" value = "No"/>No
+					<input type ="radio" value = "Yes"/>Yes<br>
+					<p></p>
+					
+					Best days to contact you:
+					<input type="checkbox"/>M
+					<input type="checkbox"/>T
+					<input type="checkbox"/>W
+					<input type="checkbox"/>Th
+					<input type="checkbox"/>F
+					<p></p>
+					<input type= "submit" value="Send Request" ><br>
+					</center>
+
+				</p>
+				
+				<div id="footer">
+					<hr>
+					<p>
+						<center>
+							2199 Marshall Ave, St Paul, MN 55104<br>
+							(651) 793-7245
+						</center>
+					</p>	
+				</div>	
+			</form>
+		</div>
 	</body>
 
 

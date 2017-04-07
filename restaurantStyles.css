@@ -10,6 +10,9 @@ body {
 	url(alexbrush-regular.ttf) format('ttf');
 	font-weight: bold;
 }
+.col-xs-6{
+	text-align: center;
+}
 a {
   font-family: monospace;
   text-decoration: none;
@@ -36,12 +39,12 @@ a:active{
 }
 
 #picture{
-	background-color: #EB984E;
+	/*background-color: #EB984E;*/
 	font-family: Times;
 	font-weight: bold;
 }
 
-#about{
+#intro{
 	background-color: #EB984E;
 	font-family: Times;
 	font-weight: bold;
