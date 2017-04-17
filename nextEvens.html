@@ -1,0 +1,46 @@
+ <HTML>
+      <HEAD>
+        <TITLE>Sample Exerciese</TITLE>
+        <script type="text/javascript">
+          function evens(){
+             var num1 = parseInt(document.getElementById("num1").value);
+             var num2 = parseInt(document.getElementById("num2").value);
+             var num3 = parseInt(document.getElementById("num3").value);
+             var result ="";
+             for (var i = num1;i<= num2;i+=num3){
+                if (i % 2 == 0){
+                result = result + i + " ";
+              }
+             }
+             
+             document.getElementById("output").innerHTML = result;
+             return result;
+          }
+        </script>
+
+        
+      </HEAD>
+
+      <BODY>
+        
+      	<div id="title">
+			<h2 STYLE= "font-family: alexbrush-regular;">Sample Exercise</h2>
+		</div>
+
+        
+        	starting number:
+            <INPUT TYPE="text" id = "num1"/>
+        	Ending Number: 
+          	<INPUT TYPE="text" id = "num2"/>
+          Step: 
+          	<INPUT TYPE="text" id = "num3"/>
+
+            <button onclick ="evens()">display evens</button>
+
+            <p id = "output"></p>
+        
+
+      </BODY>
+</HTML>
+
+ 
